@@ -745,3 +745,12 @@ window.addEventListener("load", () => {
 
 // Initialize when DOM is loaded
 document.addEventListener("DOMContentLoaded", initializePage);
+
+document.querySelector(".cookie-bar__button").addEventListener("click", () => {
+  const cookieBar = document.querySelector(".cookie-bar");
+  cookieBar.style.transition = `opacity var(--animation-speed) ease`;
+  cookieBar.style.opacity = "0";
+  setTimeout(() => {
+    cookieBar.style.display = "none";
+  }, 300); // соответствует --animation-speed 0.3s
+});
