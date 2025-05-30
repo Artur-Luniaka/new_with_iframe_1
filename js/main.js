@@ -4,9 +4,7 @@ function loadHeader() {
   if (!header) return;
 
   header.innerHTML = `
-        <a href="${
-          window.location.pathname === "/" ? "./" : "index.html"
-        }" class="logo">${websiteData.header.logo}</a>
+        <a href="./" class="logo">${websiteData.header.logo}</a>
         <nav class="desktop-nav">
             <ul>
                 ${websiteData.header.navigation
