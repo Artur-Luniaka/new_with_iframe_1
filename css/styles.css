@@ -1097,10 +1097,6 @@ button[type="submit"]:hover {
   }
 }
 
-.section:hover {
-  animation: glow 2s infinite;
-}
-
 /* Game iframe Section */
 #burrow-play {
   display: flex;
