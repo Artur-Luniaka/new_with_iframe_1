@@ -91,7 +91,6 @@ main {
 }
 
 .section:hover {
-  transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
@@ -172,7 +171,7 @@ main {
 }
 
 #burrow-entrance .stat-label {
-  color: white;
+  color: var(--text-color);
 }
 
 .features-grid {
